@@ -1,0 +1,16 @@
+﻿  Task1.cpp
+C:\Users\Кирилл\Desktop\задачи по плюсам\Task1\Task1\Task1.cpp(243,64): warning C4244: аргумент: преобразование "LONGLONG" в "DWORD", возможна потеря данных
+C:\Users\Кирилл\Desktop\задачи по плюсам\Task1\Task1\Task1.cpp(256,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(263,38): warning C4267: инициализация: преобразование из "size_t" в "_Ty2"; возможна потеря данных
+          with
+          [
+              _Ty2=int
+          ]
+C:\Users\Кирилл\Desktop\задачи по плюсам\Task1\Task1\Task1.cpp(274,30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<const char *,int>::pair<const _Kty,_Ty,0>(const std::pair<const _Kty,_Ty> &) noexcept"
+          with
+          [
+              _Kty=const char *,
+              _Ty=size_t
+          ]
+C:\Users\Кирилл\Desktop\задачи по плюсам\Task1\Task1\Task1.cpp(274,29): message : см. первую ссылку на "std::pair<const char *,int>::pair" в "TextMapTest"
+  Task1.vcxproj -> C:\Users\Кирилл\Desktop\задачи по плюсам\Task1\x64\Debug\Task1.exe
