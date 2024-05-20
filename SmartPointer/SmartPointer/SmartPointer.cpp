@@ -17,8 +17,7 @@ public:
         return SmartPointer<V>(value);
     }
 
-    explicit SmartPointer(T* value) { //конструктор с ключевым словом explicit не может быть вызван 
-        //автоматически компилятором для неявного преобразования одного типа данных в другой
+    explicit SmartPointer(T* value) { 
         if (value == nullptr) {
             throw exception("bad value");
         }
@@ -107,7 +106,6 @@ public:
     }
 
     T* operator->() {
-        //while () //зачем тут пустой вайл
         return value;
     }
 

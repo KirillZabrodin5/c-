@@ -59,14 +59,18 @@ public:
     }
 
     void remove(BlockHeader* cur) { //remove используются для удаления блоков в связанном списке
+        if (cur == cur->next) {
+            root = nullptr;
+            return;
+        }
         BlockHeader* prev = cur->prev;
         BlockHeader* next = cur->next;
         prev->next = next;
         next->prev = prev;
-        if (next == prev) {
-            root = nullptr;
-        }
-        else if (root == cur) {
+        //if (next == root) {
+        //    root = nullptr;
+        //}
+        if (root == cur) {
             root = next;
         }
     }
@@ -126,10 +130,10 @@ public:
         BlockHeader* left = nullptr;
         BlockHeader* right = nullptr;
         while (true) {
-            if (((char*)cur + cur->size) == (char*)findBlock) {
+            if (((char*)cur + cur->size) == (char*)findBlock) { //слева получаем указатель на последний байт блока памяти, на который указывает cur.
                 left = cur;
             }
-            if (((char*)findBlock + findBlock->size) == (char*)cur) {
+            if (((char*)findBlock + findBlock->size) == (char*)cur) { 
                 right = cur;
             }
             cur = cur->next;
@@ -226,7 +230,7 @@ void TextMapTest()
 {
     map<const char*, size_t, CStringComparator, CMyAllocator<char*>> Map;
 
-    const char* file_name = "C:/Users/Кирилл/Desktop/задачи по плюсам/Task1/test.txt";
+    const char* file_name = "C:/Users/Кирилл/Desktop/задачи по плюсам/Task2/test.txt";
     HANDLE hFile = CreateFileA(file_name, GENERIC_READ, FILE_SHARE_READ, 
         NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
 

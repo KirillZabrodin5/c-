@@ -1,40 +1,40 @@
 ﻿  SmartPointer.cpp
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(92,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SynchroSmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(85,5): message : во время компиляции функции-члена класс шаблон "SynchroSmartPointer<std::string>::SynchroSmartPointer(T *)"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(93,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SynchroSmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(86,5): message : во время компиляции функции-члена класс шаблон "SynchroSmartPointer<std::string>::SynchroSmartPointer(T *)"
           with
           [
               T=std::string
           ]
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(171,41): message : см. первую ссылку на "SynchroSmartPointer<std::string>::SynchroSmartPointer" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(171,33): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "SynchroSmartPointer<std::string>"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(92,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SynchroSmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(26,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(173,41): message : см. первую ссылку на "SynchroSmartPointer<std::string>::SynchroSmartPointer" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(173,33): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "SynchroSmartPointer<std::string>"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(93,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SynchroSmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(27,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SmartPointer<std::string> *"
 C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(20,5): message : во время компиляции функции-члена класс шаблон "SmartPointer<std::string>::SmartPointer(T *)"
           with
           [
               T=std::string
           ]
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(162,19): message : см. первую ссылку на "SmartPointer<std::string>::SmartPointer" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(162,40): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "SmartPointer<std::string>"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(26,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(151,107): warning C4311: приведение типов: усечение указателя из "SynchroSmartPointer<std::string> *" в "unsigned int"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(148,10): message : во время компиляции функции-члена класс шаблон "void SynchroSmartPointer<std::string>::deleteObject(void)"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(104,21): message : см. первую ссылку на "SynchroSmartPointer<std::string>::deleteObject" в "SynchroSmartPointer<std::string>::~SynchroSmartPointer"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(171,41): message : см. первую ссылку на "SynchroSmartPointer<std::string>::~SynchroSmartPointer" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(151,107): warning C4302: приведение типов: усечение из "SynchroSmartPointer<std::string> *" к "unsigned int"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(145,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SynchroSmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(138,10): message : во время компиляции функции-члена класс шаблон "void SynchroSmartPointer<std::string>::copyObject(const SynchroSmartPointer<std::string> &)"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(98,19): message : см. первую ссылку на "SynchroSmartPointer<std::string>::copyObject" в "SynchroSmartPointer<std::string>::SynchroSmartPointer"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(172,42): message : см. первую ссылку на "SynchroSmartPointer<std::string>::SynchroSmartPointer" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(145,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SynchroSmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(62,96): warning C4311: приведение типов: усечение указателя из "SmartPointer<std::string> *" в "unsigned int"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(59,10): message : во время компиляции функции-члена класс шаблон "void SmartPointer<std::string>::deleteObject(void)"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(34,21): message : см. первую ссылку на "SmartPointer<std::string>::deleteObject" в "SmartPointer<std::string>::~SmartPointer"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(162,19): message : см. первую ссылку на "SmartPointer<std::string>::~SmartPointer" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(62,96): warning C4302: приведение типов: усечение из "SmartPointer<std::string> *" к "unsigned int"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(56,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SmartPointer<std::string> *"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(52,10): message : во время компиляции функции-члена класс шаблон "void SmartPointer<std::string>::copyObject(const SmartPointer<std::string> &)"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(30,19): message : см. первую ссылку на "SmartPointer<std::string>::copyObject" в "SmartPointer<std::string>::SmartPointer"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(164,19): message : см. первую ссылку на "SmartPointer<std::string>::SmartPointer" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(164,40): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "SmartPointer<std::string>"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(27,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(152,107): warning C4311: приведение типов: усечение указателя из "SynchroSmartPointer<std::string> *" в "unsigned int"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(149,10): message : во время компиляции функции-члена класс шаблон "void SynchroSmartPointer<std::string>::deleteObject(void)"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(105,21): message : см. первую ссылку на "SynchroSmartPointer<std::string>::deleteObject" в "SynchroSmartPointer<std::string>::~SynchroSmartPointer"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(173,41): message : см. первую ссылку на "SynchroSmartPointer<std::string>::~SynchroSmartPointer" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(152,107): warning C4302: приведение типов: усечение из "SynchroSmartPointer<std::string> *" к "unsigned int"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(146,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SynchroSmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(139,10): message : во время компиляции функции-члена класс шаблон "void SynchroSmartPointer<std::string>::copyObject(const SynchroSmartPointer<std::string> &)"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(99,19): message : см. первую ссылку на "SynchroSmartPointer<std::string>::copyObject" в "SynchroSmartPointer<std::string>::SynchroSmartPointer"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(174,42): message : см. первую ссылку на "SynchroSmartPointer<std::string>::SynchroSmartPointer" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(146,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SynchroSmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(63,96): warning C4311: приведение типов: усечение указателя из "SmartPointer<std::string> *" в "unsigned int"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(60,10): message : во время компиляции функции-члена класс шаблон "void SmartPointer<std::string>::deleteObject(void)"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(35,21): message : см. первую ссылку на "SmartPointer<std::string>::deleteObject" в "SmartPointer<std::string>::~SmartPointer"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(164,19): message : см. первую ссылку на "SmartPointer<std::string>::~SmartPointer" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(63,96): warning C4302: приведение типов: усечение из "SmartPointer<std::string> *" к "unsigned int"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(57,16): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "SmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(53,10): message : во время компиляции функции-члена класс шаблон "void SmartPointer<std::string>::copyObject(const SmartPointer<std::string> &)"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(31,19): message : см. первую ссылку на "SmartPointer<std::string>::copyObject" в "SmartPointer<std::string>::SmartPointer"
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(719,82): message : см. первую ссылку на "SmartPointer<std::string>::SmartPointer" в "std::_Default_allocator_traits<_Alloc>::construct"
           with
           [
@@ -47,6 +47,6 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.3282
           ]
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(782,13): message : см. первую ссылку на "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::_Emplace_back_with_unused_capacity" в "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::_Emplace_one_at_back"
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\vector(878,29): message : см. первую ссылку на "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::_Emplace_one_at_back" в "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::push_back"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(162,19): message : см. первую ссылку на "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::push_back" в "main"
-C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(56,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SmartPointer<std::string> *"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(164,19): message : см. первую ссылку на "std::vector<SmartPointer<std::string>,std::allocator<SmartPointer<std::string>>>::push_back" в "main"
+C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\SmartPointer\SmartPointer.cpp(57,16): warning C4313: printf: конфликт "%d" в строке формата с аргументом 2 типа "SmartPointer<std::string> *"
   SmartPointer.vcxproj -> C:\Users\Кирилл\Desktop\задачи по плюсам\SmartPointer\x64\Debug\SmartPointer.exe
